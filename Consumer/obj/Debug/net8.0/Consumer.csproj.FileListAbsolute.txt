@@ -1,0 +1,14 @@
+/home/nashtech/work/kafka/Consumer/bin/Debug/net8.0/Consumer
+/home/nashtech/work/kafka/Consumer/bin/Debug/net8.0/Consumer.deps.json
+/home/nashtech/work/kafka/Consumer/bin/Debug/net8.0/Consumer.runtimeconfig.json
+/home/nashtech/work/kafka/Consumer/bin/Debug/net8.0/Consumer.dll
+/home/nashtech/work/kafka/Consumer/bin/Debug/net8.0/Consumer.pdb
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/Consumer.GeneratedMSBuildEditorConfig.editorconfig
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/Consumer.AssemblyInfoInputs.cache
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/Consumer.AssemblyInfo.cs
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/Consumer.csproj.CoreCompileInputs.cache
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/Consumer.dll
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/refint/Consumer.dll
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/Consumer.pdb
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/Consumer.genruntimeconfig.cache
+/home/nashtech/work/kafka/Consumer/obj/Debug/net8.0/ref/Consumer.dll

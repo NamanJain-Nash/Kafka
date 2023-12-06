@@ -1,0 +1,11 @@
+/home/nashtech/work/kafka/BuisnessLayer/bin/Debug/net8.0/BuisnessLayer.deps.json
+/home/nashtech/work/kafka/BuisnessLayer/bin/Debug/net8.0/BuisnessLayer.dll
+/home/nashtech/work/kafka/BuisnessLayer/bin/Debug/net8.0/BuisnessLayer.pdb
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/BuisnessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/BuisnessLayer.AssemblyInfoInputs.cache
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/BuisnessLayer.AssemblyInfo.cs
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/BuisnessLayer.csproj.CoreCompileInputs.cache
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/BuisnessLayer.dll
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/refint/BuisnessLayer.dll
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/BuisnessLayer.pdb
+/home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/ref/BuisnessLayer.dll
