@@ -14,15 +14,17 @@ public class KafkaProducerController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    [HttpPost(Name ="KafkaProducer")]
+    public async Task<string> Post()
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        try
         {
-            Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+            
+            return "Success";
+        }
+        catch(Exception ex)
+        {
+            return $"Error :{ex.Message}";
+        } 
     }
 }

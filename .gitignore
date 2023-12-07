@@ -1,1 +1,5 @@
 */obj
+/.vs/kafka/DesignTimeBuild/.dtbcache.v2
+/.vs/kafka
+/.vs
+/Consumer/obj/Debug/net8.0/Consumer.assets.cache
