@@ -1,0 +1,6 @@
+{
+  "KafkaConfig": {
+    "Servers": "your_kafka_server:port",
+    "GroupId": "your_group_id"
+  }
+}

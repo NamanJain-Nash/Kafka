@@ -1,4 +1,7 @@
-﻿using BuisnessLayer.IRepository;
+﻿using AutoMapper;
+using BuisnessLayer.IRepository;
+using DatabaseLayer.DTOs;
+using DatabaseLayer.Data;
 using Microsoft.Extensions.Logging;
 using Services.IServices;
 using System;
@@ -6,7 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Confluent.Kafka.ConfigPropertyNames;
+using DatabaseLayer.Mapper;
+using System.Text.Json;
 
 namespace BuisnessLayer.Repository
 {
@@ -19,7 +23,11 @@ namespace BuisnessLayer.Repository
         public ProducerLogic(IKafkaProducer kafkaProducer, IMapper mapper, ILogger<ProducerLogic> logger)
         {
             this.kafkaProducer = kafkaProducer ?? throw new ArgumentNullException(nameof(kafkaProducer));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<ProducerMappingProfile>(); // Use the defined mapping profile
+            });
+            this.mapper = mapper ?? config.CreateMapper();
             this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
         public async Task<string> AddProducerAsync(ProducerDTO producerDTO,string Topic)
@@ -27,12 +35,14 @@ namespace BuisnessLayer.Repository
             try
             {
                 // Mapping DTO to actual Producer entity
-                var producer = mapper.Map<Producer>(producerDTO);
+                Producer producer = mapper.Map<Producer>(producerDTO);
+                var serializedProducer = JsonSerializer.Serialize(producer);
 
-                // Logic to process the Producer entity and perform necessary actions
+                // Encoding
+                string encodedMessage = Encoding.UTF8.GetBytes(serializedProducer);
 
                 // For example, produce a message using KafkaProducer
-                string result=await kafkaProducer.ProduceAsync(producer, Topic);
+                string result =await kafkaProducer.ProduceAsync(encodedMessage, Topic);
 
                 // Return a success message or any necessary result
                 return result;
@@ -40,8 +50,9 @@ namespace BuisnessLayer.Repository
             catch (Exception ex)
             {
                 // Log any exceptions
+                kafkaProducer.Dispose();
                 logger.LogError(ex, "Error occurred while adding a producer.");
-                throw; // You might want to handle or transform exceptions based on your requirements.
+                return $"Error : {ex.Message}";
             }
         }
 

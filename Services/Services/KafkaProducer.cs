@@ -32,7 +32,7 @@ public class KafkaProducer:IKafkaProducer
 
             var kafkaMessage = new Message<string, string>
             {
-                Key = null,
+                Key = new Guid().ToString(),
                 Value = message
             };
 
