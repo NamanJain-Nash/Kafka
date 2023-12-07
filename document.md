@@ -52,10 +52,31 @@ kafka-console-consumer.sh \
 --zookeeper  zookeeper:2181
 </p>
 
-## Producer API in .Net
+## .Net Application
 
-<p></p>
+<p>The application is Designed in such a way that we have a Producer and a consumer in the case to get full utlization of the KafkA is been done.
 
+The main scope of this application is to have a way to send the mesage and recive it and we have made a api to easily post the message and have also make a console application to get the consumer be their.
+
+The pattern followed in a way that every unit is designed so reuability of the code is high </p>
+
+### Api Application
+<p>The main aim is that we have a controller where a post call is their to send the topic and the data be their and then use it to send the main buisness layer where conversion of data is their to provide mapping and other logic check</p>
+
+### Buisness Layer
+<p>The application is such that we have to convert the DTO to the main data and when we see it uses the producer service to post to the Service layer.</p>
+
+### Service Layer
+<p>We will see their is a class where we use the consumer of kafka to encode the data and send it to the required topic and then be used inside the kafka and that make it be utilized by the consumer</p>
+
+### Kafka
+<p>It will Store and manage it using the Zookepper and be used in the Subscriber and that can be many</p>
+
+### Consumer
+<p> We will see that this is the consume the application that it uses the service to easily see and have a connection that is their to recive the connection and according to the logic that we have to open and close a logic and then utilized to see the console application that is their.</p>
+
+### Service Layer
+<p>The main application that is their which is used to easily open and close the connection to collect the data from the respective group and its respective topic that is their.</p>
 
 
 
