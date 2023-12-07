@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ySkNPs+uCDXv8+K2sVmGL/9yXyrow7RpPNJSATCoTRLhobzgIjLFVAroUiadvT2fP/SasH5dWzCZGdVjL3mqNA==",
+  "dgSpecHash": "949c1RTh8EDGHPv7SXmszOPUJZtyWcsFm+/sgT+eTG9sOWD6+3uQUb7VIvZKQLhrxOuoiNwhJ0GauSL8WZ95fA==",
   "success": true,
-  "projectFilePath": "A:\\NashtechProject\\Kafka\\BuisnessLayer\\BuisnessLayer.csproj",
+  "projectFilePath": "/home/nashtech/work/kafka/BuisnessLayer/BuisnessLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

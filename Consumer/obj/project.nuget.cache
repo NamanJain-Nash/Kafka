@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D18T8uAyrtyLdCGPMGSxVscpd1MVtoKxOkZe6pZ6og4Zk+Z3FiGDJhlvYkncaxl2qPylzW/HT7ddEPc8BQyS1Q==",
+  "dgSpecHash": "OjrE89t/dQ3e1bempnw59u1NfJhJOHoHFK7B6L5SbaVvviDjgv4fSfiVgDiL3jSSBPkoHg9WgISUX4RNcoALMQ==",
   "success": true,
-  "projectFilePath": "A:\\NashtechProject\\Kafka\\Consumer\\Consumer.csproj",
+  "projectFilePath": "/home/nashtech/work/kafka/Consumer/Consumer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
