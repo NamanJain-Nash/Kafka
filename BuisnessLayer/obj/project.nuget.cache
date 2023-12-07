@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "949c1RTh8EDGHPv7SXmszOPUJZtyWcsFm+/sgT+eTG9sOWD6+3uQUb7VIvZKQLhrxOuoiNwhJ0GauSL8WZ95fA==",
+  "dgSpecHash": "KHlwZ6353a5IPcetTR5E5MB5QUZnQuuSOXNthP8TKDIFE0+41wddjfs5QvohYb8UR1bVt+UBiM6B8K41Oc+Iug==",
   "success": true,
   "projectFilePath": "/home/nashtech/work/kafka/BuisnessLayer/BuisnessLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/nashtech/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/confluent.kafka/2.3.0/confluent.kafka.2.3.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/librdkafka.redist/2.3.0/librdkafka.redist.2.3.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+  ],
   "logs": []
 }
