@@ -1,6 +1,6 @@
 using BuisnessLayer.IRepository;
 using DatabaseLayer.Data;
-using DatabaseLayer.DTOs;
+using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api_Producer.Controllers;
@@ -38,3 +38,8 @@ public class ProducerInput
     public Producer Data { get; set; }
     public string Topic { get; set; }
 }
+
+docker exec -it kafka /opt/kafka/bin/kafka-con
+ kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server localhost:9092
+    
+    sole-consumer.sh --topic test-topic --bootstrap-server localhost:9092 --from-beginning
