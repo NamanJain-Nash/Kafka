@@ -23,7 +23,7 @@ public class KafkaProducerController : ControllerBase
     {
         try
         {
-            ProducerDTO data=input.Data;
+            Producer data=input.Data;
             string response= await _producerLogic.AddProducerAsync(input.Data,input.Topic);
             return "Success";
         }
@@ -35,6 +35,6 @@ public class KafkaProducerController : ControllerBase
 }
 public class ProducerInput
 {    
-    public ProducerDTO Data { get; set; }
+    public Producer Data { get; set; }
     public string Topic { get; set; }
 }
