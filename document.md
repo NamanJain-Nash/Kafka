@@ -78,5 +78,21 @@ The pattern followed in a way that every unit is designed so reuability of the c
 ### Service Layer
 <p>The main application that is their which is used to easily open and close the connection to collect the data from the respective group and its respective topic that is their.</p>
 
+### Kafka memory
+<p>It make the store of the memory locally</p>
+
+## Kafka Application
+
+### Get the calls
+
+<p> We have setb the whole process to get the details and have used the api to publish so before start consumer we can get the info using
+
+To get the amount of pushed content
+docker exec -it kafka /opt/kafka/bin/kafka-con
+kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server localhost:9092
+</p>
+
+<p>Afte this we can easily see the topic and the work to get the whole info and the work be done</p>
+
 
 
