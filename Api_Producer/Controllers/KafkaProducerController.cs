@@ -39,7 +39,3 @@ public class ProducerInput
     public string Topic { get; set; }
 }
 
-docker exec -it kafka /opt/kafka/bin/kafka-con
- kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server localhost:9092
-    
-    sole-consumer.sh --topic test-topic --bootstrap-server localhost:9092 --from-beginning

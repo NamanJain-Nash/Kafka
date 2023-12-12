@@ -30,8 +30,9 @@ internal class Program
                 .Build();
 
             var kafkaService = host.Services.GetRequiredService<IKafkaConsumer>();
+        kafkaService.StartConsumer("first-topic"); // Replace 'your_topic_name' with your Kafka topic
 
-            kafkaService.MessageReceived += (sender, message) =>
+        kafkaService.MessageReceived += (sender, message) =>
             {
                 Console.WriteLine($"Received message: {message}");
                 // Process the received message as needed
@@ -42,8 +43,6 @@ internal class Program
                 Console.WriteLine($"Error occurred: {error}");
                 // Handle the error as needed
             };
-
-            kafkaService.StartConsumer("your_topic_name"); // Replace 'your_topic_name' with your Kafka topic
 
             // To stop the consumer after a certain period or condition, add your logic here
             // e.g., Wait for user input to stop
