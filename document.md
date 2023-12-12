@@ -76,7 +76,7 @@ The pattern followed in a way that every unit is designed so reuability of the c
 <p> We will see that this is the consume the application that it uses the service to easily see and have a connection that is their to recive the connection and according to the logic that we have to open and close a logic and then utilized to see the console application that is their.</p>
 
 ### Service Layer
-<p>The main application that is their which is used to easily open and close the connection to collect the data from the respective group and its respective topic that is their.</p>
+<p>The main application that is their which is used to easily open and close the connection to collect the data from the respective group and its respective topic that is their and make the use of it to easily send into that group.</p>
 
 ### Kafka memory
 <p>It make the store of the memory locally</p>
@@ -94,5 +94,4 @@ kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server
 
 <p>Afte this we can easily see the topic and the work to get the whole info and the work be done</p>
 
-
-
+<p></p>
