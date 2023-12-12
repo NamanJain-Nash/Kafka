@@ -92,6 +92,10 @@ docker exec -it kafka /opt/kafka/bin/kafka-con
 kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server localhost:9092
 </p>
 
-<p>Afte this we can easily see the topic and the work to get the whole info and the work be done</p>
+<p>After this we can easily see the topic and the work to get the whole info and the work be done</p>
 
-<p></p>
+<p>After having setup all the send code and the topic send we can easily make the consumer code to also run and show that can easily be done using localhost:9093[outside listner port] this is one that will consume it after getting a group id of the subscriber.</p>
+
+
+## RUN THE APP
+<p>You can run the dockerised kafka from kafak.yml or the complete code using docker-compose.yml</p>
