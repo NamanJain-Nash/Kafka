@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  Producer_api:
+    build:
+      context: .
+      dockerfile: api.Dockerfile
+    ports:
+      - "8000:80"
+
+  Consumer_app:
+    build:
+      context: .
+      dockerfile: consumer.Dockerfile

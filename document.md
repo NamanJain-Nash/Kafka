@@ -52,10 +52,50 @@ kafka-console-consumer.sh \
 --zookeeper  zookeeper:2181
 </p>
 
-## Producer API in .Net
+## .Net Application
 
-<p></p>
+<p>The application is Designed in such a way that we have a Producer and a consumer in the case to get full utlization of the KafkA is been done.
+
+The main scope of this application is to have a way to send the mesage and recive it and we have made a api to easily post the message and have also make a console application to get the consumer be their.
+
+The pattern followed in a way that every unit is designed so reuability of the code is high </p>
+
+### Api Application
+<p>The main aim is that we have a controller where a post call is their to send the topic and the data be their and then use it to send the main buisness layer where conversion of data is their to provide mapping and other logic check</p>
+
+### Buisness Layer
+<p>The application is such that we have to convert the DTO to the main data and when we see it uses the producer service to post to the Service layer.</p>
+
+### Service Layer
+<p>We will see their is a class where we use the consumer of kafka to encode the data and send it to the required topic and then be used inside the kafka and that make it be utilized by the consumer</p>
+
+### Kafka
+<p>It will Store and manage it using the Zookepper and be used in the Subscriber and that can be many</p>
+
+### Consumer
+<p> We will see that this is the consume the application that it uses the service to easily see and have a connection that is their to recive the connection and according to the logic that we have to open and close a logic and then utilized to see the console application that is their.</p>
+
+### Service Layer
+<p>The main application that is their which is used to easily open and close the connection to collect the data from the respective group and its respective topic that is their and make the use of it to easily send into that group.</p>
+
+### Kafka memory
+<p>It make the store of the memory locally</p>
+
+## Kafka Application
+
+### Get the calls
+
+<p> We have setb the whole process to get the details and have used the api to publish so before start consumer we can get the info using
+
+To get the amount of pushed content
+docker exec -it kafka /opt/kafka/bin/kafka-con
+kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server localhost:9092
+</p>
+
+<p>After this we can easily see the topic and the work to get the whole info and the work be done</p>
+
+<p>After having setup all the send code and the topic send we can easily make the consumer code to also run and show that can easily be done using localhost:9093[outside listner port] this is one that will consume it after getting a group id of the subscriber.</p>
 
 
-
-
+## RUN THE APP
+<p>You can run the dockerised kafka from kafak.yml or the complete code using docker-compose.yml</p>

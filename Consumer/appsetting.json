@@ -1,6 +1,6 @@
 {
   "KafkaConfig": {
-    "Servers": "your_kafka_server:port",
-    "GroupId": "your_group_id"
+    "Servers": "localhost:9093",
+    "GroupId": "test_group"
   }
 }

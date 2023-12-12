@@ -27,8 +27,8 @@ namespace Services.Services
 
         public void StartConsumer(string topicName)
         {
-            string server = _configuration.GetSection("KafkaConfig:Servers").Value;
-            string groupId= _configuration.GetSection("KafkaConfig:GroupId").Value;
+            string server = _configuration.GetSection("KafkaConfig:Servers").Value?? "localhost:9092";
+            string groupId= _configuration.GetSection("KafkaConfig:GroupId").Value?? "test_group";
             var config = new ConsumerConfig
             {
                 BootstrapServers = server,
