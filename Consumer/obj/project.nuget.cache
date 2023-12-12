@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "msB8kcGwER/xzWOEoCEBwFOgAZbS9JbHsuVDmQidB+TSV3UNPR0LMPNaO/g11bEHbVvA5gZ/7Txdh105G+AK+w==",
+  "dgSpecHash": "UhGKDn2JzUm+XFI14zDTZmmxlH+/K9HGmuK2kr0bfy8RGSHhGtRYtGWXl+9qUTnjVj8mOg1+laxe/b1KEzbqZw==",
   "success": true,
   "projectFilePath": "/home/nashtech/work/kafka/Consumer/Consumer.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "/home/nashtech/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.19.5/microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "/home/nashtech/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",

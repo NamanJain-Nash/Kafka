@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cx8QH64cS+rEqIfNeU2Yy/E2w1V9ubXlCJ2xjHXnuC9ASZf9vmKEba6nubSLaE+sD+eByTzquzDtnjFj60RtXA==",
+  "dgSpecHash": "p4DPs/5Xyy1V8nC1iTDgJsa4wMuVQ6m5pnMX0M3wBTNnIGC3tKS+33S9BLBsryM3EaXz173n31V+Y+mDd0y9TA==",
   "success": true,
   "projectFilePath": "/home/nashtech/work/kafka/Api_Producer/Api_Producer.csproj",
   "expectedPackageFiles": [
@@ -8,16 +8,17 @@
     "/home/nashtech/.nuget/packages/confluent.kafka/2.3.0/confluent.kafka.2.3.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/librdkafka.redist/2.3.0/librdkafka.redist.2.3.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.extensions.apidescription.server/8.0.0/microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.openapi/1.6.11/microsoft.openapi.1.6.11.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.19.5/microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/nashtech/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/home/nashtech/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
   ],
   "logs": []
