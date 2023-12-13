@@ -98,4 +98,6 @@ kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server
 
 
 ## RUN THE APP
-<p>You can run the dockerised kafka from kafak.yml or the complete code using docker-compose.yml</p>
+<p>You can run the dockerised kafka from kafak.yml this will start both the Zookeeper and the Kafka Server for the use.</p>
+
+<p>Start the application you can either run them locally for a system with .Net 8 Installed or Can use app.yml file to run the application [Note You need to start the Kafka First] </p>
