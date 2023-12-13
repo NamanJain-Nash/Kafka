@@ -9,15 +9,13 @@ using Services.IServices;
 
 namespace unittest.Buisness
 {
-    [TestFixture]
     public class ProducerLogicTests
     {
         private ProducerLogic _producerLogic;
         private Mock<IKafkaProducer> _mockKafkaProducer;
         private Mock<ILogger<ProducerLogic>> _mockLogger;
 
-        [SetUp]
-        public void Setup()
+        public ProducerLogicTests()
         {
             _mockKafkaProducer = new Mock<IKafkaProducer>();
             _mockLogger = new Mock<ILogger<ProducerLogic>>();
@@ -25,7 +23,7 @@ namespace unittest.Buisness
             _producerLogic = new ProducerLogic(_mockKafkaProducer.Object, _mockLogger.Object);
         }
 
-        [Test]
+        [Fact]
         public async Task AddProducerAsync_SuccessfullyAddsProducer()
         {
             // Arrange
@@ -41,13 +39,13 @@ namespace unittest.Buisness
             var result = await _producerLogic.AddProducerAsync(producer, topic);
 
             // Assert
-            Assert.AreEqual(expectedResult, result);
+            Assert.Equal(expectedResult, result);
             _mockKafkaProducer.Verify(k => k.ProduceAsync(It.IsAny<string>(), It.IsAny<string>()), Times.Once);
             _mockKafkaProducer.VerifyNoOtherCalls();
             _mockLogger.VerifyNoOtherCalls();
         }
 
-        [Test]
+        [Fact]
         public async Task AddProducerAsync_ExceptionOccurs_LogsErrorAndReturnsErrorMessage()
         {
             // Arrange
@@ -64,7 +62,7 @@ namespace unittest.Buisness
             var result = await _producerLogic.AddProducerAsync(producer, topic);
 
             // Assert
-            Assert.AreEqual($"Error : {expectedErrorMessage}", result);
+            Assert.Equal($"Error : {expectedErrorMessage}", result);
             _mockKafkaProducer.Verify(k => k.ProduceAsync(It.IsAny<string>(), It.IsAny<string>()), Times.Once);
             _mockKafkaProducer.VerifyNoOtherCalls();
             _mockLogger.Verify(

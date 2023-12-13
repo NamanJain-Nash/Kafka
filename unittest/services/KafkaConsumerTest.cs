@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Moq;
 using Xunit;
-
 namespace unittest.services
 {
     public class KafkaConsumerTest
