@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uSc4za8natIQT9E9UyTQNHrjyAUPfr7Ez/CUFLmGl5rtnZAWgH+nbXCUrWlqlqB7TCt8egMZAyFie01bQgb4jw==",
+  "dgSpecHash": "Kiegnv8KWvL2syJ/6j9oe9RwFH5yaYK6MEMRAdVoajMI5hsXOFkTAA5PMZLR/rRtEbuf05NDtj1BseAdAEs9dQ==",
   "success": true,
-  "projectFilePath": "/home/nashtech/work/kafka/Services/Services.csproj",
+  "projectFilePath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Services\\Services.csproj",
   "expectedPackageFiles": [
-    "/home/nashtech/.nuget/packages/confluent.kafka/2.3.0/confluent.kafka.2.3.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/librdkafka.redist/2.3.0/librdkafka.redist.2.3.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "/home/nashtech/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+    "C:\\Users\\Palak Jain\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
+    "C:\\Users\\Palak Jain\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
+    "C:\\Users\\Palak Jain\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Palak Jain\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Palak Jain\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
   ],
   "logs": []
 }
