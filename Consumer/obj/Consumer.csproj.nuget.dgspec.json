@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/nashtech/work/kafka/Consumer/Consumer.csproj": {}
+    "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Consumer\\Consumer.csproj": {}
   },
   "projects": {
-    "/home/nashtech/work/kafka/Consumer/Consumer.csproj": {
+    "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Consumer\\Consumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nashtech/work/kafka/Consumer/Consumer.csproj",
+        "projectUniqueName": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Consumer\\Consumer.csproj",
         "projectName": "Consumer",
-        "projectPath": "/home/nashtech/work/kafka/Consumer/Consumer.csproj",
-        "packagesPath": "/home/nashtech/.nuget/packages/",
-        "outputPath": "/home/nashtech/work/kafka/Consumer/obj/",
+        "projectPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Consumer\\Consumer.csproj",
+        "packagesPath": "C:\\Users\\Palak Jain\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Consumer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nashtech/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Palak Jain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/nashtech/work/kafka/Services/Services.csproj": {
-                "projectPath": "/home/nashtech/work/kafka/Services/Services.csproj"
+              "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Services\\Services.csproj"
               }
             }
           }
@@ -67,26 +69,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/nashtech/work/kafka/Services/Services.csproj": {
+    "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nashtech/work/kafka/Services/Services.csproj",
+        "projectUniqueName": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "/home/nashtech/work/kafka/Services/Services.csproj",
-        "packagesPath": "/home/nashtech/.nuget/packages/",
-        "outputPath": "/home/nashtech/work/kafka/Services/obj/",
+        "projectPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Palak Jain\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nashtech/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Palak Jain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -142,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

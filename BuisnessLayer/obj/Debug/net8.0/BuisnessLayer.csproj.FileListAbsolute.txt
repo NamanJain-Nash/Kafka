@@ -9,3 +9,39 @@
 /home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/refint/BuisnessLayer.dll
 /home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/BuisnessLayer.pdb
 /home/nashtech/work/kafka/BuisnessLayer/obj/Debug/net8.0/ref/BuisnessLayer.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\libcrypto-3.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\libcurl.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\librdkafka.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\librdkafkacpp.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\libssl-3.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\msvcp140.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\vcruntime140.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\zlib1.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x86\zstd.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\libcrypto-3-x64.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\libcurl.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\librdkafka.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\librdkafkacpp.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\libssl-3-x64.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\msvcp140.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\vcruntime140.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\zlib1.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\librdkafka\x64\zstd.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\BuisnessLayer.deps.json
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\BuisnessLayer.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\BuisnessLayer.pdb
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\DatabaseLayer.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\Services.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\DatabaseLayer.pdb
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\bin\Debug\net8.0\Services.pdb
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.csproj.AssemblyReference.cache
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.AssemblyInfoInputs.cache
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.AssemblyInfo.cs
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.sourcelink.json
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.csproj.CopyComplete
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\refint\BuisnessLayer.dll
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.pdb
+C:\Users\Palak Jain\OneDrive\Nashtech\BuisnessLayer\obj\Debug\net8.0\ref\BuisnessLayer.dll

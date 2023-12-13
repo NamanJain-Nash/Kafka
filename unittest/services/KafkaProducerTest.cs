@@ -15,27 +15,19 @@ namespace unittest.services
         public async Task ProduceAsync_Success()
         {
             // Arrange
-            var configurationMock = new Mock<IConfiguration>();
-            configurationMock.Setup(conf => conf.GetSection("KafkaConfig:Servers").Value).Returns("localhost:9092");
+            var mockConfiguration = new Mock<IConfiguration>();
+            mockConfiguration.Setup(c => c.GetSection("KafkaConfig:Servers").Value).Returns("localhost:9092");
 
-            var producerMock = new Mock<IProducer<string, string>>();
-            producerMock
-                .Setup(p => p.ProduceAsync(It.IsAny<string>(), It.IsAny<Message<string, string>>()))
-                .ReturnsAsync(new DeliveryResult<string, string>
-                {
-                    TopicPartitionOffset = new TopicPartitionOffset("topic", new Partition(0), Offset.End)
-                });
-
-            var kafkaProducer = new KafkaProducer(configurationMock.Object);
+            var producer = new KafkaProducer(mockConfiguration.Object);
             var message = "Test message";
             var topicName = "test_topic";
 
             // Act
-            var result = await kafkaProducer.ProduceAsync(message, topicName);
-
+            var result = await producer.ProduceAsync(message, topicName);
             // Assert
-            Assert.Contains("Delivered message to", result);
+            Assert.Equal($"Delivered message to: test_topic", result);
         }
+
 
         [Fact]
         public async Task ProduceAsync_Failure()
@@ -43,12 +35,6 @@ namespace unittest.services
             // Arrange
             var configurationMock = new Mock<IConfiguration>();
             configurationMock.Setup(conf => conf.GetSection("KafkaConfig:Servers").Value).Returns("localhost:9092");
-
-            var producerMock = new Mock<IProducer<string, string>>();
-            producerMock
-                .Setup(p => p.ProduceAsync(It.IsAny<string>(), It.IsAny<Message<string, string>>()))
-                .ThrowsAsync(new ProduceException<string, string>(new Error(ErrorCode.Local_Failure), new Message<string, string>()));
-
             var kafkaProducer = new KafkaProducer(configurationMock.Object);
             var message = "Test message";
             var topicName = "test_topic";

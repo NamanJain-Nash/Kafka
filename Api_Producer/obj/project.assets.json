@@ -994,35 +994,37 @@
     ]
   },
   "packageFolders": {
-    "/home/nashtech/.nuget/packages/": {}
+    "C:\\Users\\Palak Jain\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nashtech/work/kafka/Api_Producer/Api_Producer.csproj",
+      "projectUniqueName": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Api_Producer\\Api_Producer.csproj",
       "projectName": "Api_Producer",
-      "projectPath": "/home/nashtech/work/kafka/Api_Producer/Api_Producer.csproj",
-      "packagesPath": "/home/nashtech/.nuget/packages/",
-      "outputPath": "/home/nashtech/work/kafka/Api_Producer/obj/",
+      "projectPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Api_Producer\\Api_Producer.csproj",
+      "packagesPath": "C:\\Users\\Palak Jain\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\Api_Producer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nashtech/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Palak Jain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/nashtech/work/kafka/BuisnessLayer/BuisnessLayer.csproj": {
-              "projectPath": "/home/nashtech/work/kafka/BuisnessLayer/BuisnessLayer.csproj"
+            "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\BuisnessLayer\\BuisnessLayer.csproj": {
+              "projectPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\BuisnessLayer\\BuisnessLayer.csproj"
             },
-            "/home/nashtech/work/kafka/DatabaseLayer/DatabaseLayer.csproj": {
-              "projectPath": "/home/nashtech/work/kafka/DatabaseLayer/DatabaseLayer.csproj"
+            "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\DatabaseLayer\\DatabaseLayer.csproj": {
+              "projectPath": "C:\\Users\\Palak Jain\\OneDrive\\Nashtech\\DatabaseLayer\\DatabaseLayer.csproj"
             }
           }
         }
@@ -1095,7 +1097,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
