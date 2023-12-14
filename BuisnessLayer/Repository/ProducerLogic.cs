@@ -26,7 +26,7 @@ namespace BuisnessLayer.Repository
             try
             {
                 var (validEmails, invalidEmails) = CorrectEmailAsync(producer.to);
-                if(validEmails != null)
+                if(validEmails == null)
                 {
                     return "No Email is Correct";
                 }

@@ -74,7 +74,7 @@ namespace Services.Services
                 return "Mail Failed";
             }
         }
-        public void SendEmailSMTP(List<string> toEmails, string subject, string body)
+        public async Task<string> SendEmailSMTP(List<string> toEmails, string subject, string body)
         {
             try
             {
@@ -106,10 +106,13 @@ namespace Services.Services
                 client.Send(mailMessage);
 
                 Console.WriteLine("Email sent successfully!");
+                return "Sent";
             }
             catch (Exception ex)
             {
+                
                 Console.WriteLine($"Failed to send email. Error message: {ex.Message}");
+                return ex.Message;
             }
         }
 

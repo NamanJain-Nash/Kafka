@@ -16,7 +16,7 @@ internal class Program
                 .ConfigureAppConfiguration((hostContext, config) =>
                 {
                     config.SetBasePath(Directory.GetCurrentDirectory());
-                    config.AddJsonFile("appsettings.json", optional: true);
+                    config.AddJsonFile("appsetting.json", optional: true);
                     config.AddEnvironmentVariables(prefix: "PREFIX_");
                     config.AddCommandLine(args);
                 })
@@ -25,20 +25,17 @@ internal class Program
                     services.AddSingleton<IKafkaConsumer, KafkaConsumer>();
                     services.AddSingleton<IConsumerLogic, ConsumerLogic>();
                     services.AddSingleton<ISendMail,SendMail>();
-                    services.AddSingleton(provider =>
-                    {
-                        IConfiguration configuration = provider.GetRequiredService<IConfiguration>();
-                        return configuration.GetSection("KafkaConfig");
-                    });
+                    services.AddSingleton<ISendMail,SendMail>();
                 })
                 .Build();
 
             var kafkaService = host.Services.GetRequiredService<IKafkaConsumer>();
-        kafkaService.StartConsumer("first-topic"); // Replace 'your_topic_name' with your Kafka topic
-
+        kafkaService.StartConsumer("test"); // Replace 'your_topic_name' with your Kafka topic
+        var logic = host.Services.GetRequiredService<IConsumerLogic>();
         kafkaService.MessageReceived += (sender, message) =>
             {
                 Console.WriteLine($"Received message: {message}");
+                logic.SendMail(message);
                 // Process the received message as needed
             };
 
