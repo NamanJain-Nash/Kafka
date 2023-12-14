@@ -9,7 +9,9 @@ namespace DatabaseLayer.Data
     public class Producer
     {
         public string id { get; set; }
-        public object data { get; set; }
+        public string body { get; set; }
+        public List<string> to { get; set;}
+        public string subject { get; set; }
 
     }
 }
