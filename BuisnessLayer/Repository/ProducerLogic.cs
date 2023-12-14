@@ -5,6 +5,7 @@ using Services.IServices;
 using System;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace BuisnessLayer.Repository
@@ -24,6 +25,12 @@ namespace BuisnessLayer.Repository
         {
             try
             {
+                var (validEmails, invalidEmails) = CorrectEmailAsync(producer.to);
+                if(validEmails != null)
+                {
+                    return "No Email is Correct";
+                }
+                producer.to = validEmails;
                 var serializedProducer = JsonSerializer.Serialize(producer);
 
                 // Encoding
@@ -33,7 +40,8 @@ namespace BuisnessLayer.Repository
                 string result = await kafkaProducer.ProduceAsync(encodedMessage, Topic);
 
                 // Return a success message or any necessary result
-                return result;
+                var missedEmails = string.Join("\n", invalidEmails);
+                return $"{result} Some Missed emails are: \n{missedEmails}";
             }
             catch (Exception ex)
             {
@@ -42,6 +50,26 @@ namespace BuisnessLayer.Repository
                 logger.LogError(ex, "Error occurred while adding a producer.");
                 return $"Error : {ex.Message}";
             }
+        }
+        private (List<string>, List<string>) CorrectEmailAsync(List<string> mails)
+        {
+            const string emailRegex = @"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$";
+            var validEmails = new List<string>();
+            var invalidEmails = new List<string>();
+
+            foreach (var mail in mails)
+            {
+                if (!Regex.IsMatch(mail, emailRegex))
+                {
+                    invalidEmails.Add(mail);
+                }
+                else
+                {
+                    validEmails.Add(mail);
+                }
+            }
+
+            return (validEmails, invalidEmails);
         }
     }
 }

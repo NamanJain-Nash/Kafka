@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using BuisnessLayer.IRepository;
+using BuisnessLayer.Repository;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Services.IServices;
@@ -21,6 +23,8 @@ internal class Program
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddSingleton<IKafkaConsumer, KafkaConsumer>();
+                    services.AddSingleton<IConsumerLogic, ConsumerLogic>();
+                    services.AddSingleton<ISendMail,SendMail>();
                     services.AddSingleton(provider =>
                     {
                         IConfiguration configuration = provider.GetRequiredService<IConfiguration>();
