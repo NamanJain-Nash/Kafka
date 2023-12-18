@@ -96,6 +96,8 @@ kafka-console-consumer.sh --topic test-topic --from-beginning --bootstrap-server
 
 <p>After having setup all the send code and the topic send we can easily make the consumer code to also run and show that can easily be done using localhost:9093[outside listner port] this is one that will consume it after getting a group id of the subscriber.</p>
 
+### Messaging service
+<p>After the Subscriber has Recived the call it will filter out the conetnt from buisness layer and use the Email Service that uses Graph / SMTP to easily send the mail from the mailling address and have send to the respective subject,body and To is done.</p>
 
 ## RUN THE APP
 <p>You can run the dockerised kafka from kafak.yml this will start both the Zookeeper and the Kafka Server for the use.</p>
